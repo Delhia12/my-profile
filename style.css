@@ -1,91 +1,343 @@
+h1 { 
 
-h1 {
-  color: #E05D5D;
-	font-size: 30px;
-	font-family: Helvetica;
-	text-align: center;
+    
+
+  text-shadow:#ffae00 2.5px 2.5px 0,
+
+#ff00c0 5px 5px 0,
+
+#aa0306 7.5px 7.5px 0,
+
+#7c0003 10px 10px 10px;color:#ffe69a;
+
 }
 
-p { 
-  color: black;
-	font-size: 15px;
-	font-family: Helvetica;
-	text-align: left;
+ 
+
+H1 { text-align: center }
+
+ 
+
+h2 {text-shadow:#ffe69a 0 -1px 0,
+
+  #ff6767 2px 2px 0,
+
+  #ca3333 3px 3px 0,
+
+  #770a0c 4px 4px 0,
+
+  #333 5px 5px 10px;color:#FFE5BF;
+
 }
 
+ 
+
+#col {
+
+  column-count: 3;
+
+} 
+
+ 
+
+h3 {text-shadow:#ffe69a 0 -1px 0,
+
+  #ff6767 2px 2px 0,
+
+  #ca3333 3px 3px 0,
+
+  #770a0c 4px 4px 0,
+
+  #333 5px 5px 10px;color:#FFE5BF
+
+}
+
+ 
 
 img {
-src ="images/delhia2.jpg" : center 	
-}
 
-h2 {
-  color: lightseagreen;
-	font-size: 20px;
-	font-family: Helvetica;
-	text-align: left;
-}
-p {text-align: left;
+    width: 250px;
+
+    height: 300px;
+
+ 
 
 }
 
-h3 {
-  color: lightseagreen;
-	font-size: 20px;
-	font-family: Helvetica;
-	text-align: left;
+ 
+
+.footer-basic {
+
+    padding:40px 0;
+
+    background-color:#ffffff;
+
+    color:#4b4c4d;
+
+  }
+
+  
+
+  .footer-basic ul {
+
+    padding:0;
+
+    list-style:none;
+
+    text-align:center;
+
+    font-size:18px;
+
+    line-height:1.6;
+
+    margin-bottom:0;
+
+  }
+
+  
+
+  .footer-basic li {
+
+    padding:0 10px;
+
+  }
+
+  
+
+  .footer-basic ul a {
+
+    color:inherit;
+
+    text-decoration:none;
+
+    opacity:0.8;
+
+  }
+
+  
+
+  .footer-basic ul a:hover {
+
+    opacity:1;
+
+  }
+
+  
+
+  .footer-basic .social {
+
+    text-align:center;
+
+    padding-bottom:25px;
+
+  }
+
+  
+
+  .footer-basic .social > a {
+
+    font-size:24px;
+
+    width:40px;
+
+    height:40px;
+
+    line-height:40px;
+
+    display:inline-block;
+
+    text-align:center;
+
+    border-radius:50%;
+
+    border:1px solid #ccc;
+
+    margin:0 8px;
+
+    color:inherit;
+
+    opacity:0.75;
+
+  }
+
+  
+
+  .footer-basic .social > a:hover {
+
+    opacity:0.9;
+
+  }
+
+  
+
+  .footer-basic .copyright {
+
+    margin-top:15px;
+
+    text-align:center;
+
+    font-size:13px;
+
+    color:#aaa;
+
+    margin-bottom:0;
+
+  }
+
+ 
+
+  table,
+
+  td {
+
+      border: 1px solid #333;
+
+  }
+
+  
+
+  thead,
+
+  tfoot {
+
+      background-color: #333;
+
+      color: #fff;
+
+  }
+
+  
+
+  
+
+  .rounded div img {
+
+    width: 200px;
+
+    height: auto;
+
+    -webkit-transition: .3s ease-in-out !important; 
+
+    transition: .3s ease-in-out !important; 
+
+  }
+
+  .rounded div:hover img:hover {
+
+    width: 150px;
+
+    height: 150px;
+
+    border-radius: 50%; 
+
+  }
+
+  
+
+  
+
+  
+
+  
+
+  *{padding: 0; margin: 0; box-sizing: border-box;}
+
+body{height: 900px;}
+
+header {
+
+  background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+
+  text-align: center;
+
+  width: 100%;
+
+  height: auto;
+
+  background-size: cover;
+
+  background-attachment: fixed;
+
+  position: relative;
+
+  overflow: hidden;
+
+  border-radius: 0 0 85% 85% / 30%;
+
 }
 
-h4 {
-  color: lightseagreen;
-	font-size: 20px;
-	font-family: Helvetica;
-	text-align: left;
+header .overlay{
+
+  width: 100%;
+
+  height: 100%;
+
+  padding: 50px;
+
+  color: #FFF;
+
+  text-shadow: 1px 1px 1px #333;
+
+  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+
+  
+
 }
 
-h5 {
-  color: lightseagreen;
-	font-size: 20px;
-	font-family: Helvetica;
-	text-align: left;
+ 
+
+h1 {
+
+  font-family: 'Dancing Script', cursive;
+
+  font-size: 80px;
+
+  margin-bottom: 30px;
+
 }
 
+ 
 
+h3, p {
 
+  font-family: 'Open Sans', sans-serif;
 
+  margin-bottom: 30px;
 
-
-
-
-body {
-  color: rgb(10, 10, 10);     
-	background-color: #F8F0DF;    
-}
-body {
-  font-size: 15px;
-	line-height: 2.2;
-	letter-spacing: 1px;
-}
-<img src="logo.png" class="img-circle">
-#logo {
-  width: 40px;
 }
 
-.img-circle {
-	border-radius: 50%;  }
+ 
 
-	#titre {
-		text-align: center;
-	}
-	.card {
-  display: flex;
-  align-items: left;
-  justify-content: space-between;
-	padding: 20px;
+button {
+
+  border: none;
+
+  outline: none;
+
+  padding: 10px 20px;
+
+  border-radius: 50px;
+
+  color: #333;
+
+  background: #fff;
+
+  margin-bottom: 50px;
+
+  box-shadow: 0 3px 20px 0 #0000003b;
+
 }
-.card img {
-  width: 200px;
+
+button:hover{
+
+  cursor: pointer;
+
 }
-.card h2 {
-  flex-grow: 1;
-  padding-left: 20px;
-}
+
+ 
+
+tr:nth-child(odd) {background: #CCC}
+
+tr:nth-child(even) {background: #FFF}
+
+ 
